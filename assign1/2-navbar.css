@@ -2,8 +2,34 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.1em;
   color: #dedede;
+  margin: 0;
 }
 
 nav {
-  background-image: linear-gradient(to right, rgb(1, 73, 73) 20%, black);
+  background-image: linear-gradient(to right, rgb(1, 73, 73) 20%, black)
+}
+
+li:hover{
+  background-color: rgb(23, 117, 117)
+}
+ul{
+  margin: 0;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+li{
+  display: inline;
+  padding: 10px 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  ul{
+    padding: 0 0;
+  }
+
+  li{
+    display: block;
+  }
 }
