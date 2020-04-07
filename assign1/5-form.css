@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: rgb(5, 64, 112);
+  background-color:#0173a0;
 }
 form{
   text-align: left;
@@ -20,10 +20,11 @@ div{
   /*border: 1px solid black;*/
   width: 440px;
   margin: 0 auto;
-  
 }
+
 h1{
   text-align: center;
+  color: #0173a0;
 }
 
 .tb{
@@ -36,10 +37,99 @@ h1{
   font-size: 20px;
 }
 #fst{
-  background-color: rgb(5, 64, 112);
+  background-color: #0173a0;
   color: white;;
 }
 label{
   padding-top: 10px;
   margin-top: 10px;
+}
+
+button:hover{
+  opacity: 0.8; 
+}
+
+@media only screen and (max-width: 786px) {
+  div{
+    padding: 5px;
+    /*border: 1px solid black;*/
+    width: 340px;
+    margin: 0 auto;
+  }
+  form{
+    text-align: left;
+    border: 2px solid black;
+    width: 370px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1%;
+  }
+
+  textarea{
+    width: 330px;
+  }
+  h1{
+    font-size: 22px;
+  }
+
+  .butt{
+    padding: 5px;
+    width: 165px;
+    font-size: 15px;
+  }
+  .tb{
+    width: 330px;
+  }
+
+  label{
+    font-size: medium;
+  }
+
+  p{
+    font-size: medium;
+  }
+ }
+
+ @media only screen and (max-width: 550px) {
+
+  div{
+    padding: 3px;
+    /*border: 1px solid black;*/
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  form{
+    text-align: left;
+    border: 2px solid black;
+    width: 270px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1%;
+  }
+
+  textarea{
+    width: 258px;
+  }
+  h1{
+    font-size: 15px;
+  }
+
+  .butt{
+    padding: 5px;
+    width: 129px;
+    font-size: 10px;
+  }
+  .tb{
+    width: 230px;
+  }
+
+  label{
+    font-size: small;
+  }
+
+  p{
+    font-size: small;
+  }
+
 }
