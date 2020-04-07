@@ -3,3 +3,41 @@ body {
   font-size: 1.1em;
   color: #555;
 }
+
+#first{
+  margin: 100px;
+}
+
+div{
+  float: left;
+  margin: 30px;
+}
+
+#grey{
+  filter: grayscale(100%);
+}
+
+#blur{
+  filter: blur(4px);
+}
+
+#Invert{
+  filter: invert(1);
+}
+
+#brightness{
+  filter: brightness(60%);
+}
+
+#saturation{
+  filter: saturate(4);
+}
+
+#sepia{
+  filter: sepia(1);
+}
+
+#various{
+  opacity: 0.8;
+  filter: hue-rotate(300);
+}
