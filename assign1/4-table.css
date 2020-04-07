@@ -5,6 +5,32 @@ body {
 }
 
 /* Colors used include:
-      - #006060;
+      - 
       - rgb alpha value of the color above
 */
+table{
+  margin: 0 auto;
+  width: 600px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+th, td{
+  border-bottom: 1px solid #ddd;
+}
+
+th{
+  padding: 5px 10px;
+  background-color:#006060;
+  border: 1px solid #006060;
+  color: white;
+}
+td{
+  padding: 5px 10px;
+}
+
+tr:not(:nth-child(1)):hover{
+  background-color: #9bf1f1;
+  opacity: 0.9;
+}
+
