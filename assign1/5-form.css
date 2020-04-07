@@ -1,3 +1,45 @@
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(5, 64, 112);
+}
+form{
+  text-align: left;
+  border: 2px solid black;
+  width: 470px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 1%;
+}
+
+textarea{
+  width: 430px;
+}
+
+div{
+  padding: 10px;
+  /*border: 1px solid black;*/
+  width: 440px;
+  margin: 0 auto;
+  
+}
+h1{
+  text-align: center;
+}
+
+.tb{
+  width: 430px;
+}
+
+.butt{
+  padding: 10px;
+  width: 215px;
+  font-size: 20px;
+}
+#fst{
+  background-color: rgb(5, 64, 112);
+  color: white;;
+}
+label{
+  padding-top: 10px;
+  margin-top: 10px;
 }
