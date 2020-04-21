@@ -277,6 +277,45 @@ body{
 
 }
 
+@media all and (max-width:768px){
+    .item1{
+        display: flex;
+        background: black;
+        color: white;
+        justify-content: center;
+        height: 2em;
+        align-items: center;
+        font-size: 1.8em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .day-container{
+        display: flex;
+        height: em;
+        
+        justify-content: space-around;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+    .month-container{
+        display: grid;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.7em;
+        grid-template-columns: repeat(7 1.714fr);
+        grid-template-rows: 3.2em 3.2em 3.2em 3.2em 3.2em;
+        grid-template-areas:
+        "qa qb qc a b c d"
+        "e f g h i j k"
+        "l m n o p q r"
+        "s t u v w x y"
+        "z a1 b1 c1 d1 e1 f1";
+        grid-gap:1px;
+    }
+
+}
+
 @media all and (max-width:414px){
     .item1{
         display: flex;
