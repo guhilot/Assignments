@@ -8,9 +8,21 @@
 - Form exercise
 
 ### Assignment 2 - Layouts
-- to be posted week #2
+- Flexbox exercise
+- Flexbox exercise
+- CSS Grid exercise
+- CSS Grid exercise
+- Flexbox and CSS Grid exercise
+- Bootstrap Grid exercise
 
 ### Assignment 3 - JavaScript 
-- to be posted week #3
+- Form exercise
+- URL exercise
+- Count exercise
+- RegEx exercise
+- Palindrome exercise
+- Background exercise
+- API exercise
+- Charts exercise
 
 Check D2L or Drive for more details on each assignment
