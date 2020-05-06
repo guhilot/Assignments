@@ -8,8 +8,45 @@
     <title>JavaScript Form Exercise</title>
   </head>
   <body>
-    <h3>Step 1 - insert your previous form here</h3>
-    <h3>Step 2 - address any responsiveness and/or accessibility issues</h3>
+      <form id="frm">
+          <h1>INTRO SURVEY</h1>
+          <div>
+          <label for="fname"><strong>Name </strong><b style="color:grey;">(required)</b></label><br>
+          <input type="text" id="fname" name="fname" class="tb" required><br>
+          <label for="gmail"><strong>Email </strong><b style="color:grey;">(required)</b></label><br>
+          <input type="email" id="gmail" name="gmail" class="tb" required><br>
+          <label for="regStat"><strong>Registration Status</strong> </label><br>
+          <select id="regStat" name="regStat" class="tb">
+            <option value="Registered">Registered</option>
+            <option value="Waitlist">Waitlist</option>
+            <option value="Others">Others</option>
+          </select><br>
+          <p><strong>Class Section:</strong></p>      
+          <input type="radio" id="CS410" name="reg" value="CS410">
+          <label for="CS410">CS410</label>
+          <input type="radio" id="CS510" name="reg" value="CS510">
+          <label for="CS410">CS510</label><br>
+          <p><strong>Have you taken any of these courses?</strong> </p>
+          <input type="checkbox" name="sub1" class="sub" value="Programming Languages">
+          <label for="sub1">Programming Languages</label><br>
+          
+          <input type="checkbox" name="sub2" class="sub" value="Operating Systems">
+          <label for="sub2">Operating System</label><br>
+          
+          <input type="checkbox" name="sub3" class="sub" value="Full Stack Web Development">
+          <label for="sub3">Full Stack Web Development</label><br><br>
+          <label for="texta"><strong>Anything else?</strong> </label><br>
+        
+          <textarea name="texta" id="texta" cols="50" rows="10"></textarea>
+          <br>
+          
+          <button class="butt" id="fst">Submit</button>
+          <button class="butt">Reset</button>
+          
+        </div>
+    
+      </form>
+  
     <script src="1-form.js"></script>
   </body>
 </html>
