@@ -16,6 +16,7 @@ const url = 'https://swapi.dev/api/people';
                 const str3 = str.concat(", ")
                 const str4 = str3.concat(str2)
                 li.innerHTML = str4
+                li.style.fontSize = "medium"
             })
        })
     }
