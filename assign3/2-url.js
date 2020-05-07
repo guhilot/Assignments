@@ -47,8 +47,7 @@ form.onsubmit = function(e){
     const p1 = document.createElement('p')
     const p2 = document.createElement('p')
     const p3 = document.createElement('p')
-    //const br = document.createElement('br')
-    //console.log(br)
+  
     //form1.innerText="test"
     // p.style.fontSize='medium'
     // p.style.fontWeight='normal'
@@ -65,14 +64,8 @@ form.onsubmit = function(e){
     p1.innerText = str2
     p2.innerText = str3
     p3.innerText = str4
-    //p4.innerText = str1
+    
     form1.append(h2)
-    // h2.append(h4)
-    // h4.append(p)
-    // p.append(h41)
-    // h41.append(p1)
-    // p1.append(p2)
-    // p2.append(p3)
     form1.append(h4)
     form1.append(p)
     form1.append(h41)
