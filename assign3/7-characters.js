@@ -20,8 +20,19 @@ const url = 'https://swapi.dev/api/people';
             })
        })
     }
+    //dataMan([data])
 
-
+    async function loop(url){
+        // url1 = url.slice(0, -1)
+        console.log(url.toString())
+        // for(i=2; i<=9; ++i)
+        // {
+           await fetch(url)
+            .then(res=>res.json())
+            .then(data=>console.log(data))
+        // } 
+    }
+  
     fetch(url)
         .then(res=>res.json())
         .then(data=>dataMan([data]))
